@@ -3,6 +3,16 @@ ls("package:recommenderlab")
 print(getwd())
 #setwd("/Users/User/Documents")
 # Read in the MovieLens data
+
+safe_read_data <- function(file_path) {
+tryCatch({
+read.delim(file_path, sep = "\t")
+}, error = function(e) {
+cat("Error in reading file:", e$message, "\n")
+return(NULL)
+})
+}
+
 Ratings <- read.delim("user_ratedmovies.dat", sep = "\t")
 head(Ratings) # 855598 x 9
 dim(Ratings)
