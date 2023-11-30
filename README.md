@@ -14,7 +14,7 @@ The MovieLens Recommender System is a sophisticated tool designed to provide per
 ### How It Works:
 
 
-Data Source: The system uses the 'user_ratedmovies.dat' file from the MovieLens dataset.
+Data Source: The system uses a file from the MovieLens dataset. It comprises of more than 100,000 records, which makes it a comprehensive dataset.
 
 Data Processing: Includes reading, normalizing, and binarizing the ratings data to prepare it for the recommendation algorithms.
 
