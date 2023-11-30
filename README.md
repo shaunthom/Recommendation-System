@@ -10,7 +10,6 @@ The MovieLens Recommender System is a sophisticated tool designed to provide per
 
 1. Personalization: Tailor movie recommendations to individual user preferences, enhancing user experience.
 2. Discovery: Assist users in discovering movies they might like but are unaware of.
-3. Research and Learning: Serve as a practical application for studying and implementing recommender algorithms.
 
 ### How It Works:
 
